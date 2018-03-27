@@ -1,0 +1,29 @@
+add_namespace = Wales
+
+# Border Skirmish with the English
+country_event = {
+	id = wales.1 
+	title = wales.1.t
+	desc = wales.1.d
+	picture = GFX_report_event_japanese_transport_soldiers
+	
+	is_triggered_only = no
+	trigger = {
+        tag = CYM
+        AND = date > 1936.2.1
+    }
+
+    mean_time_to_happen = {days = 7}
+
+	option = { # Push back
+		name = Cymru am Byth!
+		ai_chance = { factor = 100 }
+		add_political_power = -25
+		declare_war_on = {
+            target = Eng
+            type = annex_everything
+        }
+
+		}
+	}
+}

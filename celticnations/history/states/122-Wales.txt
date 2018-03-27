@@ -1,0 +1,32 @@
+state= {
+	id=122
+	name="STATE_122"
+	manpower = 2309230
+	
+	state_category = city
+	
+	resources={
+		steel=32
+		aluminium=10
+	}
+
+	history=
+	{
+		owner = CYM
+		victory_points = { 377 50 }
+		victory_points = { 407 5 }
+		victory_points = { 9364 5 }
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 4
+			377 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = CYM
+	}
+
+	provinces=
+	{
+253 311 377 407 3274 6363 9364 11361 	}
+}

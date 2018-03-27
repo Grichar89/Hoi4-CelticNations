@@ -1,0 +1,66 @@
+﻿division_template = {
+	name = "Troedfilwyr"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Mynyddwyr"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+        mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+        mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+        artillery = { x = 0 y = 1 }
+	}
+}
+units = {
+	division= {	
+		name = "1st Cymru Division (Caerdydd)"
+		location = 377
+		division_template = "Troedfilwyr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "2nd Cymru Division (Cymoedd)"
+		location = 377
+		division_template = "Mynyddwyr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "3rd Cymru Division (Abertawe)"
+		location = 407
+		division_template = "Troedfilwyr"
+		start_experience_factor = 0.3
+	}
+	division= {	
+		name = "4th Cymru Division (Gogledd)"
+		location = 9364
+		division_template = "Troedfilwyr"
+		start_experience_factor = 0.3
+	}
+}
